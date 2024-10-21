@@ -1,70 +1,110 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF -8">
+        <title>Project 1 HTML</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body style="background-color:turquoise">
+        <header>
+            <h1 style="text-align: center; font-style: italic;">Project 1</h1>
+        </header>
+        <nav style="text-align: center;font-weight: bold;">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#resume">resume</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <section id="about" style="margin-left: 30px;">
+            <a href="about"></a>
+            <h1>About</h1>
+            <table style="background-color: whitesmoke;" border="1">
+                <tr style="font-weight: bold;">
+                    <th>Nom et Prénom</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Job description</th>
+                </tr>
+                <tr>
+                    <td>Amine Tabessi</td>
+                    <td>30</td>
+                    <td>Male</td>
+                    <td>Founder</td>
+                </tr>
+                <tr>
+                    <td>Amine Tabessi</td>
+                    <td>18</td>
+                    <td>Male</td>
+                    <td>Co-Founder</td>
+                </tr>
+                <tr>
+                    <td>Khaled</td>
+                    <td>18</td>
+                    <td>Male</td>
+                    <td>Assistant</td>
+                </tr>
+            </table>
+        </section>
 
-<html lang="en">
+        <section id="work" style="margin-left: 30px;">
+            <a href="work"></a>
+            <h1>Work</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fDtHRzABMJg?si=i-Ys0y_IRWlV6HJm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
 
-<head>
+        <section id="resume" style="margin-left: 30px;">
+            <a href="resume"></a>
+            <h1>Resume</h1>
+            <p style="font-weight: bold;font-style: italic;">Nos Chapites :</p>
+            <ol style="font-weight: bold;" type="I">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node Js</li>
+                <li>MongoDB</li>
+            </ol>
+        </section>
 
-    <meta charset="UTF-8">
+        <section id="contact" style="margin-left: 30px;">
+            <a href="contact"></a>
+            <h1>Contact</h1>
+            <form style="font-weight: bold;">
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Enter your name"><br>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <label for="surname">Surname:</label>
+                <input type="text" name="surname" placeholder="Enter your surname"><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Enter your email"><br>
 
-    <title>Delicious Bites Menu</title>
-</head>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" placeholder="Enter your phone"><br>
 
-<body>
+                <label for="date">Date:</label>
+                <input type="date" name="date"><br>
 
-    <h1>Delicious Bites Menu</h1>
+                <label for="message">Message:</label>
+                <textarea name="message" placeholder="Enter your message"></textarea><br>
 
-    <h2>Appetizers</h2>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
 
-    <ul>
-
-        <li>
-
-            <strong>Caprese Salad</strong>
-
-            <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p>
-
-        </li>
-
-        <!-- Add two more appetizer items with descriptions -->
-
-    </ul>
-
-    <h2>Main Courses</h2>
-
-    <ul>
-
-        <li>
-
-            <strong>Grilled Salmon</strong>
-
-            <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>
-
-        </li>
-
-        <!-- Add two more main course items with descriptions -->
-
-    </ul>
-
-    <h2>Desserts</h2>
-
-    <ul>
-
-        <li>
-
-            <strong>Chocolate Fondue</strong>
-
-            <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>
-
-        </li>
-
-        <!-- Add two more dessert items with descriptions -->
-
-    </ul>
-
-    <p><a href="contact.html">Contact us for reservations</a></p>
-
-</body>
-
+        <footer>
+            <a href="#home"></a>
+            <h1 style="text-align: center; font-style: italic;">Contact us</h1>
+            <nav style="text-align: center;font-weight: bold;">
+                <i class="fa-brands fa-facebook"><a href="https://www.facebook.com/amine.tebessi.9/">Facebook</a></i>
+                <i class="fa-brands fa-twitter"><a href="">Twitter</a></i>
+                <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/tabessi_amine/">Instagram</a></i>
+                <i class="fa-brands fa-linkedin"><a href="">Linkedin</a></i>
+                <i class="fas fa-envelope"> <a href="mailto:aminetebessi26@gmail.com">E-Mail</a></i>
+                <i class="fas fa-phone"> <a href="tel:+216 93930462">Direct-Call</a></i>
+            </nav>
+            <p style="text-align: center;font-weight: bold;">Copyright &copy; 2023</p>
+        </footer>
+    </body>
 </html>
